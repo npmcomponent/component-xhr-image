@@ -1,25 +1,14 @@
 {
-  "name": "xhr-image",
-  "repo": "component/xhr-image",
+  "name": "component-xhr-image",
   "description": "XHR-driven Images for progress events",
   "version": "0.0.1",
   "keywords": [
-    "url",
-    "utility"
+    "image",
+    "progress"
   ],
-  "dependencies": {
-    "emitter-component": "*"
-  },
-  "development": {},
-  "license": "MIT",
   "main": "index.js",
-  "component": {
-    "scripts": {
-      "xhr-image/index.js": "index.js"
-    }
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/xhr-image.git"
-  }
+  "license": "MIT"
 }
